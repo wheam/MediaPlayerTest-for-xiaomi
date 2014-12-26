@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <nine-patch android:src="@drawable/aa_video_progress_bg" />
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <scale
+            android:drawable="@drawable/aa_video_progress_cache"
+            android:scaleWidth="100%" />
+    </item>
+    <item android:id="@android:id/progress">
+        <scale
+            android:drawable="@drawable/aa_video_progress_current"
+            android:scaleWidth="100%" />
+    </item>
+
+</layer-list>

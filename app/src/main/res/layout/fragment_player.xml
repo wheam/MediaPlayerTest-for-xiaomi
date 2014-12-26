@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/absolute_black"
+                android:id="@+id/video_play_layout"
+                android:gravity="center">
+
+    <FrameLayout
+        android:id="@+id/videoSurfaceContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <SurfaceView
+            android:id="@+id/videoSurface"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/loading_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent">
+
+        <ProgressBar
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </FrameLayout>
+
+</RelativeLayout>

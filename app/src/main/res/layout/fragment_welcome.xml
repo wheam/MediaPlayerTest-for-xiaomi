@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="2"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="打开本地文件"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:background="@drawable/background_bn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_file"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#696969"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:text="打开 url"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:background="@drawable/background_bn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_url"/>
+
+</LinearLayout>

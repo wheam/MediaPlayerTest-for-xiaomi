@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="LimeGreen">#32CD32</color>
+    <color name="FireBrick">#B22222</color>
+    <color name="PureWhite">#FFFFFF</color>
+    <color name="black">#333333</color>
+    <color name="DimGray">#C0C0C0</color>
+    <color name="bg_list_content">#f4f4f4</color>
+    <color name="list_header_label_text_color">#aaaaaa</color>
+    <color name="list_header_label_divider">#e8e8e8</color>
+    <color name="absolute_black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#f7f7f7</color>
+    <color name="dark_grey">#7e7f81</color>
+    <color name="video_play_control_bg">#DD292929</color>
+</resources>
